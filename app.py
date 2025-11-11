@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 from langchain_chroma import Chroma
-from langchain_community.document_loaders import WebBaseLoader
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
