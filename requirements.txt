@@ -580,6 +580,7 @@ pypika==0.48.9
     # via chromadb
 pyproject-hooks==1.2.0
     # via build
+python==3.12
 python-dateutil==2.9.0.post0
     # via
     #   jupyter-client
@@ -740,7 +741,7 @@ tensorboard==2.20.0
     #   tensorflow
 tensorboard-data-server==0.7.2
     # via tensorboard
-tensorflow>=2.14,<2.17
+tensorflow==2.20.0rc0
     # via 32027-generative-ai-principles (pyproject.toml)
 termcolor==3.2.0
     # via tensorflow
