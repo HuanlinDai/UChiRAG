@@ -386,7 +386,7 @@ numba==0.62.1
     # via
     #   pynndescent
     #   umap-learn
-numpy==1.26.4
+numpy>=2.1.0
     # via
     #   32027-generative-ai-principles (pyproject.toml)
     #   accelerate
