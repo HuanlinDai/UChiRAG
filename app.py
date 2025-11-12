@@ -1,4 +1,3 @@
-!playwright install
 import streamlit as st
 import pandas as pd
 import os
@@ -12,6 +11,7 @@ from langchain_community.document_loaders import PlaywrightURLLoader
 from dotenv import load_dotenv
 
 load_dotenv()
+os.system("playwright install")
 
 urls = [
 "https://datascience.uchicago.edu/education/masters-programs/ms-in-applied-data-science",
